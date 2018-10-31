@@ -1,0 +1,18 @@
+				<input type="hidden" name="username" placeholder="Username" value="<?php echo $_POST['username']; ?>">
+				<input type="hidden" name="password" placeholder="Password" value="<?php echo $_POST['password']; ?>">
+
+				<input type="submit" name="submit" value="<?php echo $id_d; ?>">
+				<textarea name="text"><?php echo $text_d; ?></textarea>
+				<textarea name="header"><?php echo $header_d; ?></textarea>
+				<textarea name="code"><?php echo $code_d; ?></textarea>
+				<textarea name="image"><?php echo $image_d; ?></textarea>
+				<textarea name="alt"><?php echo $alt_d; ?></textarea>
+				<select name= "menu_id">
+				 <?php echo $s; ?>
+				</select>
+				<input type="text" name="id_d" value="<?php echo $id_d; ?>">
+			    <input type="submit" name="submit" value="Verkställ">
+				<input type="radio" name="operation" value="insert" <?php echo $check_insert; ?>>insert
+				<input type="radio" name="operation" value="update" <?php echo $check_update; ?>>update
+				<input type="radio" name="operation" value="delete" <?php echo $check_delete; ?>>delete				
+			    </form>

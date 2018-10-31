@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:10%;
+  text-align:center;
+  padding-left:10px;
+  padding-right:10px;
+}
+.menu a {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 9px #000000;
+  background-image: -moz-linear-gradient(top, #FFFFE0, #808000);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #FFFFE0), color-stop(1.0, #808000));
+  text-decoration:none;
+  background-color: #D3D3D3;
+  margin-top:5px;
+  padding:8px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.menu a:hover{
+  background-image: -moz-linear-gradient(top, #FFFFE0, #EEE8AA);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #FFFFE0), color-stop(1.0, #EEE8AA));
+}
+.selcted_link { 
+  background-image: -moz-linear-gradient(top, #FFFFE0, #EEE8AA);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #FFFFE0), color-stop(1.0, #EEE8AA));
+}
+.main {
+  float:left;
+  width:75%;
+}
+.right {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 2px 2px 9px #000000;
+  -moz-box-shadow: 2px 2px 9px #000000;
+  box-shadow: 2px 2px 9px #000000;
+  background-color:#808000;
+   background-image: -moz-linear-gradient(top, #FFFFE0, #808000);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #FFFFE0), color-stop(1.0, #808000));
+  float:right;
+  width:14%;
+  padding:10px;
+  text-align:center;
+  margin-right:5px;
+  margin-top:5px;
+  overflow:left-side;
+  min-height:600px;
+}
+.banner{
+	background-color:#FFFFFF;
+	background: linear-gradient(to left top, white, #888888) ;
+	width: 100%;
+	text-align: center;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 2px 2px 9px #000000;
+	-moz-box-shadow: 2px 2px 9px #000000;
+	box-shadow: 2px 2px 9px #000000;
+	padding:5px;
+	margin-top:15px;
+	color:white;
+	text-shadow: 2px 2px 0px #000000;
+	}
+.menu_container{
+	overflow:auto;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+textarea{
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration:none;
+  background-color: black;
+  margin-top:5px;
+  padding:8px;
+  display:block;
+  border-style: ridge;
+  color: yellow;
+  font-size:16px;
+}
+.table_container{
+  min-height:400px;
+  background-color: black;
+  padding:2px;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+	background-color:#FFFFFF;
+	margin-top:5px;
+
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background: linear-gradient(to left top, black, grey);
+    color: white;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(to left top, white, black) fixed;
+}
+img .logo{
+	width: 100px;
+}
+img .banner {
+    vertical-align: baseline;
+}
+.code{
+	height:400px;
+}
+footer{
+	background-color:#FFFFFF;
+	background: linear-gradient(to left top, white, #888888);
+	width: 100%;
+	text-align: center;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 2px 2px 9px #000000;
+	-moz-box-shadow: 2px 2px 9px #000000;
+	box-shadow: 2px 2px 9px #000000;
+	padding:5px;
+}
+.center_text{
+	width:100%;
+	text-align:center;
+}
+.button{
+  border-radius: 6px;
+  -webkit-box-shadow: 2px 2px 9px #000000;
+  -moz-box-shadow: 2px 2px 9px #000000;
+  box-shadow: 2px 2px 9px #000000;
+  background-image: -moz-linear-gradient(top, #FFFFE0, #808000);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #FFFFE0), color-stop(1.0, #808000));
+  text-decoration:none;
+  background-color: #D3D3D3;
+  margin-top:5px;
+  padding:8px;
+  display:block;
+  width: 100%;
+  cursor:pointer;
+}
+.button2{
+  background-color: red;
+  color:red; 
+  border-radius: 30%;
+  font-size: 5px;
+  cursor:pointer;
+}
+.button3{
+  background-color: green;
+  color:white; 
+  border-radius: 30%;
+  font-size: 8px;
+  cursor:pointer;
+}
+#customers input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
+.small{
+	width:10%;
+}
